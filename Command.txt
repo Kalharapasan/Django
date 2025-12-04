@@ -13,6 +13,6 @@ pipenv shell
 pipenv install django
 
 
-django-admin startproject lesson2
+django-admin startproject worldtour
 
 python manage.py startapp asiatoursagency
