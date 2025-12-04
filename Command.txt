@@ -1,1 +1,18 @@
+//Create Project
 django-admin startproject test01
+
+//Create App
+python manage.py startapp helloword
+
+//Run Server
+python manage.py runserver
+
+//Create Virtual Environment
+pipenv shell
+
+pipenv install django
+
+
+django-admin startproject lesson2
+
+python manage.py startapp asiatoursagency
