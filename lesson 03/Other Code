@@ -1,0 +1,14 @@
+python manage.py shell
+
+from databases_setup.models import Student
+
+to1 = Student(
+    student_first_name="Pasan",
+    student_last_name="Kalhara",
+    student_age=24,
+    student_address="No 180 Dolkandha",
+    student_birthday="2001-01-20",
+    student_gpa=3.4
+)
+
+to1.save()
